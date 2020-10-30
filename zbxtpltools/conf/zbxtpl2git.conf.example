@@ -1,0 +1,23 @@
+[general]
+# Local directory to temporarly save exported templates
+temp_path = /tmp/zbxtpl2git/
+
+[zabbix]
+# Zabbix connection settings
+url = <url to zabbix frontend>
+user = <API username>
+password = <API user password>
+# Zabbix template group containing all templates to be exported
+template_export_group = Templates/Git
+# Root host group containing all templates. This group will be stripped from the paths
+template_root_group = Templates
+
+[git]
+# Git connection settings
+url = <git repo URL>
+branch = develop
+user = git
+ssh_pubkey = ~/.ssh/id_rsa_gitlab.pub
+ssh_privkey = ~/.ssh/id_rsa_gitlab
+author_name = Zabbix
+author_email = zabbix@domain.net

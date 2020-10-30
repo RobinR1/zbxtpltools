@@ -1,0 +1,8 @@
+repository
+zbxtpl2git.conf
+zbxgit2tpl.conf
+ssh_keys
+build/
+dist/
+zbxtpltools.egg-info/
+__pycache__/
